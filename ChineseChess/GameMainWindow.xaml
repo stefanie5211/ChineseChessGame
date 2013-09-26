@@ -1,0 +1,338 @@
+﻿<Window x:Class="ChineseChess.GameMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChineseChess" Icon="/ChineseChess;component/bin/Debug/Menu.jpg" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="740" d:DesignWidth="890" SizeToContent="WidthAndHeight" BorderBrush="Black" Closing="Window_Closing">
+    <Grid Height="715">
+        <Grid Height="715" HorizontalAlignment="Left" Margin="0,0,0,0" Name="chessBoardGrid" VerticalAlignment="Top" Width="650">
+            <Image Height="715" HorizontalAlignment="Left" Name="chessBoardImage" Stretch="Fill" VerticalAlignment="Top" Width="650" Source="/ChineseChess;component/bin/Debug/ChessBoard.jpg" />
+            <Grid Height="32.5" HorizontalAlignment="Left" Margin="0,0,0,0"  Name="grid1" VerticalAlignment="Top" Width="650" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+            <Grid Height="650" HorizontalAlignment="Left" Margin="0,32.5,0,0" Name="grid2" VerticalAlignment="Top" Width="32.5" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+            <Grid Height="32.5" HorizontalAlignment="Left" Margin="0,682.5,0,0" Name="grid3" VerticalAlignment="Top" Width="650" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+            <Grid Height="650" HorizontalAlignment="Left" Margin="617.5,32.5,0,0" Name="grid4" VerticalAlignment="Top" Width="32.5" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+            <WrapPanel Height="650" HorizontalAlignment="Left" Margin="32.5,32.5,0,0" Name="chessBoardWrapPanel" VerticalAlignment="Top" Width="585">
+                <Grid Height="65" Name="wrapPanelGrid1_1" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown"  Background="#00000000">
+                    <Button  Height="65" HorizontalAlignment="Left"  Name="blackRookButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/ROOK%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_2" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackKnightButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KNIGHT%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_3" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackBishopButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/BISHOP%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_4" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackGuardButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/GUARD%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_5" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackKingButton" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KING%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_6" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackGuardButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/GUARD%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_7" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000" >
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackBishopButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/BISHOP%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_8" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackKnightButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KNIGHT%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid1_9" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button  Height="65" HorizontalAlignment="Left"  Name="blackRookButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/ROOK%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid2_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid2_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+
+                <Grid Height="65" Name="wrapPanelGrid3_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_2" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackCannonButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/CANNON%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid3_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid3_8" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackCannonButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/CANNON%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid3_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid4_1" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackPawnButton5" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid4_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid4_3" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackPawnButton4" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid4_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid4_5" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackPawnButton3" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid4_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid4_7" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackPawnButton2" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid4_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid4_9" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="blackPawnButton1" VerticalAlignment="Top" Width="65" Visibility="Hidden">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Black%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+
+                <Grid Height="65" Name="wrapPanelGrid5_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid5_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+
+                <Grid Height="65" Name="wrapPanelGrid6_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid6_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+
+                <Grid Height="65" Name="wrapPanelGrid7_1" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redPawnButton1" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid7_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid7_3" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redPawnButton2" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid7_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid7_5" Width="65"  MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redPawnButton3" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid7_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid7_7" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redPawnButton4" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid7_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid7_9" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redPawnButton5" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/PAWN%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+
+                <Grid Height="65" Name="wrapPanelGrid8_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_2" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left"  Name="redCannonButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/CANNON%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid8_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid8_8" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redCannonButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/CANNON%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid8_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+
+                <Grid Height="65" Name="wrapPanelGrid9_1" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_2" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_3" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_4" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_5" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_6" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_7" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_8" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid9_9" Width="65" Background="#00000000" MouseRightButtonDown="wrapPanelGrid_MouseRightButtonDown" MouseLeftButtonDown="grid3_MouseLeftButtonDown" />
+                <Grid Height="65" Name="wrapPanelGrid10_1" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redRookButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/ROOK%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_2" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redKnightButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KNIGHT%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_3" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redBishopButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/BISHOP%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_4" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redGuardButtonLeft" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/GUARD%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_5" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redKingButton" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KING%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_6" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redGuardButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/GUARD%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_7" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redBishopButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/BISHOP%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_8" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redKnightButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/KNIGHT%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+                <Grid Height="65" Name="wrapPanelGrid10_9" Width="65" MouseLeftButtonDown="wrapPanelGrid_MouseRightButtonDown" Background="#00000000">
+                    <Button Height="65" HorizontalAlignment="Left" Name="redRookButtonRight" VerticalAlignment="Top" Width="65" Visibility="Hidden" Click="blackRookButtonLeft_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/ChineseChess;component/bin/Debug/ROOK%28Red%29.png" />
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </WrapPanel>
+        </Grid>
+        <Grid Height="360" HorizontalAlignment="Left" Margin="660,0,0,0" Name="gameMessageGrid" VerticalAlignment="Top" Width="200">
+            <GroupBox Header="Game Information" Height="360" HorizontalAlignment="Left" Name="gameMessageGroupBox" VerticalAlignment="Top" Width="200" Foreground="#FF5CFFF1">
+                <Grid>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="30" HorizontalAlignment="Left" Margin="0,30,0,0" Name="player1Border" VerticalAlignment="Top" Width="72">
+                        <TextBlock Name="player1TextBlock" Text="Player1" TextAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="White" />
+                    </Border>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="30" HorizontalAlignment="Left" Margin="115,30,0,0" Name="player2Border" VerticalAlignment="Top" Width="72">
+                        <TextBlock Name="player2TextBlock" Text="Player2" FontWeight="Bold" TextAlignment="Center" FontSize="16" Foreground="White" />
+                    </Border>
+                    <Border BorderBrush="{x:Null}" BorderThickness="1" Height="36" HorizontalAlignment="Left" Margin="73,27,0,0" Name="vsBorder" VerticalAlignment="Top" Width="40">
+                        <TextBlock Name="VSTextBlock" Text="VS" TextAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="#FF93D9FF" />
+                    </Border>
+                    <TextBlock Height="25" HorizontalAlignment="Left" Margin="0,71,0,0" Name="player1StateTextBlock" Text="Wait for connection" VerticalAlignment="Top" Width="105" TextAlignment="Center" FontWeight="Normal" FontSize="10" Foreground="LightPink" />
+                    <TextBlock Height="25" HorizontalAlignment="Left" Margin="105,71,0,0" Name="player2StateTextBlock" Text="Wait for connection" VerticalAlignment="Top" Width="83" TextAlignment="Center" FontSize="10" FontWeight="Normal" Foreground="LightPink" />
+                    <TextBlock Height="36" HorizontalAlignment="Left" Margin="6,291,0,0" Name="turnNameTextBlock" Text="Turn:" VerticalAlignment="Top" Width="66" FontSize="26" TextAlignment="Center" Foreground="#FF9CF889" Visibility="Hidden" />
+                    <TextBlock Height="27" HorizontalAlignment="Left" Margin="78,297,0,0" Name="turnTextBlock" VerticalAlignment="Top" Width="109" FontSize="18" TextAlignment="Center" Foreground="White" Text="{Binding ElementName=player1TextBlock, Path=Text}" Visibility="Hidden" />
+                    <Button Content="Ready" Height="45" HorizontalAlignment="Left" Margin="33,146,0,0" Name="readyButton" VerticalAlignment="Top" Width="120" Click="readyButton_Click" />
+                    <Button Content="Cancel" Height="45" HorizontalAlignment="Left" Margin="33,211,0,0" Name="unReadyButton" VerticalAlignment="Top" Width="120" IsEnabled="False" Click="unReadybutton_Click" />
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Height="267" HorizontalAlignment="Left" Margin="660,368,0,0" Name="showTextGrid" VerticalAlignment="Top" Width="200">
+            <TextBox Height="267" HorizontalAlignment="Left" Name="showTextBox" VerticalAlignment="Top" Width="200" />
+        </Grid>
+        <Grid Height="81" HorizontalAlignment="Left" Margin="660,642,5,5" Name="sendTextGrid" VerticalAlignment="Top" Width="202" Background="{x:Null}">
+            <TextBox Height="77" HorizontalAlignment="Left" Name="sendTextBox" VerticalAlignment="Top" Width="138" />
+            <Button Content="Send" Height="53" HorizontalAlignment="Right" Name="sendMessageButton" VerticalAlignment="Top" Width="58" Margin="0,24,3,0" Click="sendMessageButton_Click" />
+        </Grid>
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black" Offset="0" />
+                <GradientStop Color="#FF2B4D5F" Offset="1" />
+            </RadialGradientBrush>
+        </Grid.Background>
+    </Grid>
+</Window>

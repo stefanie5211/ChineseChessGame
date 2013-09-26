@@ -1,0 +1,14 @@
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.exe
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.pdb
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChessServer\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.exe
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.pdb
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.exe
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.pdb
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.exe
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.pdb
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.csprojResolveAssemblyReference.cache
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.exe
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\obj\x86\Debug\ChineseChessServer.pdb
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.exe
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChessServer\bin\Debug\ChineseChessServer.pdb

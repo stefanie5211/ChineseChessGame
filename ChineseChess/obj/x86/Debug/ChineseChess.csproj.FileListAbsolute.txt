@@ -1,0 +1,49 @@
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ResolveAssemblyReference.cache
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\App.g.cs
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess_MarkupCompile.cache
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.g.resources
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.Properties.Resources.resources
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GenerateResource.read.1.tlog
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GenerateResource.write.1.tlog
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\bin\Debug\ChineseChess.exe
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\bin\Debug\ChineseChess.pdb
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.exe
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.pdb
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.baml
+g:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.g.cs
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.baml
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.g.cs
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.baml
+G:\Documents\Visual Studio 2010\Projects\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.g.cs
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\bin\Debug\ChineseChess.exe
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\bin\Debug\ChineseChess.pdb
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.csprojResolveAssemblyReference.cache
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.baml
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.baml
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.baml
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.g.cs
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.g.cs
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.g.cs
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\App.g.cs
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess_MarkupCompile.cache
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.g.resources
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.Properties.Resources.resources
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.csproj.GenerateResource.Cache
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.exe
+F:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.pdb
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\bin\Debug\ChineseChess.exe
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\bin\Debug\ChineseChess.pdb
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.csprojResolveAssemblyReference.cache
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.baml
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.baml
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.baml
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameHallWindow.g.cs
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\GameMainWindow.g.cs
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\MenuWindow.g.cs
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\App.g.cs
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess_MarkupCompile.cache
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.g.resources
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.Properties.Resources.resources
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.csproj.GenerateResource.Cache
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.exe
+G:\学习\留学\ChineseChess\ChineseChess\ChineseChess\obj\x86\Debug\ChineseChess.pdb

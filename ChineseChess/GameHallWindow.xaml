@@ -1,0 +1,118 @@
+﻿<Window x:Class="ChineseChess.GameHallWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChineseChess" Height="428" Width="600" Icon="/ChineseChess;component/bin/Debug/Menu.jpg" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closed="Window_Closed" Loaded="Window_Loaded">
+    <Grid>
+        <Grid Height="200" HorizontalAlignment="Left" Name="grid1" VerticalAlignment="Top" Width="200">  
+            <Border BorderBrush="White" BorderThickness="1" Height="200" HorizontalAlignment="Left" Name="border2" VerticalAlignment="Top" Width="200">
+                <Image Height="200" Name="image1" Stretch="Fill" Width="200" Source="/ChineseChess;component/bin/Debug/ChessTables.bmp" />
+            </Border>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="20,80,0,0" Name="seatButton1" VerticalAlignment="Top" Width="40" Click="SeatButton_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="140,80,0,0" Name="seatButton2" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="PaleTurquoise" Offset="0" />
+                    <GradientStop Color="Teal" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Height="200" HorizontalAlignment="Left" Margin="200,0,0,0" Name="grid2" VerticalAlignment="Top" Width="200">   
+            <Border BorderBrush="White" BorderThickness="1" Height="200" HorizontalAlignment="Left" Name="border1" VerticalAlignment="Top" Width="200" >
+                <Image Height="200" Name="image2" Stretch="Fill" Width="200" Source="/ChineseChess;component/bin/Debug/ChessTables.bmp" />
+            </Border>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="20,80,0,0" Name="seatButton3" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="140,80,0,0" Name="seatButton4" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Height="200" HorizontalAlignment="Left" Margin="0,200,0,0" Name="grid3" VerticalAlignment="Top" Width="200">
+            <Border BorderBrush="White" BorderThickness="1" Height="200" HorizontalAlignment="Left" Name="border3" VerticalAlignment="Top" Width="200">
+                <Image Height="200" Name="image3" Stretch="Fill" Width="200" Source="/ChineseChess;component/bin/Debug/ChessTables.bmp" />
+            </Border>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="20,80,0,0" Name="seatButton5" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="140,80,0,0" Name="seatButton6" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Height="200" HorizontalAlignment="Left" Margin="200,200,0,0" Name="grid4" VerticalAlignment="Top" Width="200">
+            <Border BorderBrush="White" BorderThickness="1" Height="200" HorizontalAlignment="Left" Name="border4" VerticalAlignment="Top" Width="200">
+                <Image Height="200" Name="image4" Stretch="Fill" Width="200" Source="/ChineseChess;component/bin/Debug/ChessTables.bmp" />
+            </Border>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="20,80,0,0" Name="seatButton7" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Null" Height="40" HorizontalAlignment="Left" Margin="140,80,0,0" Name="seatButton8" VerticalAlignment="Top" Width="40" Click="SeatButton_Click" >
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleTurquoise" Offset="0" />
+                        <GradientStop Color="Teal" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Border BorderBrush="{x:Null}" BorderThickness="1" Height="197" HorizontalAlignment="Left" Margin="406,0,0,0" Name="clientListBorder" VerticalAlignment="Top" Width="183">
+            <GroupBox Header="Online Users" Height="197" Name="clientListGroupBox" Width="183">
+                <Grid>
+                    <DataGrid  Height="197" HorizontalAlignment="Left" Name="clientDataGrid" VerticalAlignment="Top" Width="183" ItemsSource="{Binding}" AutoGenerateColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" GridLinesVisibility="Vertical" IsReadOnly="True" IsTextSearchCaseSensitive="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="PlayerName" Width="79" Binding="{Binding PlayerName}"/>
+                            <DataGridTextColumn Header="IPAddress" Width="96" Binding="{Binding PlayerIPAddress}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </GroupBox>
+        </Border>
+        <Border BorderBrush="{x:Null}" BorderThickness="1" Height="199" HorizontalAlignment="Left" Margin="406,199,0,0" Name="VSBorder" VerticalAlignment="Top" Width="183">
+            <GroupBox Header="Chat room" Name="chatHallGroupBox" Width="183">
+                <Grid>
+                    <TextBox Height="139" HorizontalAlignment="Left" Margin="0,0,0,0" Name="chatHallShowTextBox" VerticalAlignment="Top" Width="183" IsEnabled="True" TextWrapping="WrapWithOverflow" />
+                    <TextBox Height="33.5" HorizontalAlignment="Left" Margin="0,142,0,0" Name="chatHallSendTextBox" VerticalAlignment="Top" Width="136" />
+                    <Button Content="Send" Height="33.5" HorizontalAlignment="Left" Margin="137,142,0,0" Name="chatHallSendButton" VerticalAlignment="Top" Width="33.5" Click="hallSendButton_Click" />
+                </Grid>
+            </GroupBox>
+        </Border>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF989CA7" Offset="0" />
+                <GradientStop Color="#FF677DA3" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</Window>
